@@ -1,0 +1,70 @@
+
+/* === Estilo base para o site Gabi Makeup Hair === */
+/* Paleta inspirada na cor Algodão Egípcio (#EAE3D5) */
+
+body {
+  background-color: #EAE3D5; /* Fundo principal */
+  color: #3C3A37; /* Texto principal */
+  font-family: "Poppins", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #EAE3D5; /* Cabeçalho */
+  color: #2A2A28; /* Texto do cabeçalho */
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #d4cfc0;
+}
+
+h1, h2, h3 {
+  color: #2A2A28; /* Títulos */
+}
+
+nav a {
+  color: #2A2A28; /* Links do menu */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #B97A57; /* Cor cobre ao passar o mouse */
+}
+
+a {
+  color: #B97A57; /* Links gerais */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A05F43; /* Hover mais escuro */
+}
+
+footer {
+  background-color: #EAE3D5;
+  color: #3C3A37;
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 0.9rem;
+  border-top: 1px solid #d4cfc0;
+}
+
+button, .btn {
+  background-color: #B97A57;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #A05F43;
+}
+
+img {
+  border-radius: 10px;
+}
