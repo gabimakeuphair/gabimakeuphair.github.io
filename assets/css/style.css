@@ -31,7 +31,7 @@ header {
 }
 
 header .logo {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1rem;
   letter-spacing: 0.5px;
   color: var(--title);
